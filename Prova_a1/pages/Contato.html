@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" href="/img/logo.png">
+    <title>Contato</title>
+</head>
+
+<body>
+    <div id="banner">
+        <h1>Scanntech</h1>
+    </div>
+    <header>
+        <img src="/img/logo.png" id="logo">
+        <nav class="menu">
+            <ul class="nav-links">
+                <li> <a href="../index.html" class="link">Home</a> </li>
+                <li> <a href="/pages/Ambiente De Trabalho.html" class="link">Ambiente De Trabalho</a> </li>
+                <li> <a href="/pages/contato.html" class="link">Contato</a> </li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button id="grupo">PROVA A1</button></a>
+    </header>
+
+    <section class="main">
+
+        <h1 class="cursos_h1">Preencha</h1>
+
+        <div id="teste">
+            <form>
+                    <div class="campo">
+                        <label for="Nome" class="campo" >Nome*</label><br>
+                        <input type="text" class="campo" name="Nome" id="Nome" size="25px" required placeholder="Nome">
+                    </div>
+
+                    <div class="campo">
+                        <label for="Nome" class="campo" >Sobrenome*</label><br>
+                        <input type="text" class="campo" name="sobrenome" id="sobrenome" size="25px" required
+                            placeholder="Sobrenome">
+                    </div>
+
+                    <div class="campo">
+                        <label for="E-mail">E-mail*</label><br>
+                        <input type="email" class="campo" name="email" id="email" placeholder="E-mail" size="25px"><br>
+                    </div>
+
+                    <div class="campo">
+                        <label for="Telefone">Telefone</label><br>
+                        <input type="number" class="campo" name="telefone" id="telefone" placeholder="Telefone"
+                            size="25px">
+                    </div>
+
+
+                <br>
+
+                <div class="campo">
+                    <label class="campo" for="interesse">Interesse*</label>
+                    <select class="campo" name="interesse" id="interesse">
+                        <option class="campo" value="" disabled selected>Selecionar</option>
+                        <option class="campo" value="Suporte">Suporte</option>
+                        <option class="campo" value="Comercial">Comercial</option>
+                        <option class="campo" value="RH">RH</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem*</label><br>
+                    <textarea name="mensagem" class="campo" id="mensagem" cols="30" rows="5"
+                        placeholder="Digite aqui"></textarea>
+                </div>
+
+                <br>
+
+                <button id="enviar">Enviar</button>
+            </form>
+        </div>
+
+    </section>
+    <footer>
+        <div id="footer">
+            <p id="texto-footer">Renan Alves Barbosa de Sousa RGM: 26639564 CURSO: Análise e Desenvolvimento de Sistemas</p>
+        </div>
+    </footer>
+</body>
+
+</html>
